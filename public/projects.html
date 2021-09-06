@@ -1,0 +1,238 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style-redesign.css" type="text/css">
+    <link rel="stylesheet" href="fund.css" type="text/css">
+
+    <title>Michael Ameteku | Engineer</title>
+
+    <link rel="icon" href="icons8-user-male-skin-type-5-80.png" type="image/x-icon">
+
+</head>
+
+<body>
+    
+    <header class="main-header">
+        <div class="under-construction"> Site is Still Under Construction</div>
+
+        <nav id="main-nav">
+           <a style ="text-decoration: none ;"href="index.html">
+            <div id="left-side">
+                <div class="my-image" src="me.jpg" alt="me"></div>
+                <h1 class="my-name"><span style="color: rgb(146, 136, 90);">Michael</span> Ameteku</h1>
+            </div>
+           </a>
+            <div class="throbbing-wrapper">
+
+                <img id="throbbing" src="icons8-user-male-skin-type-5-80.png" alt="">
+
+            </div>
+            <div id="right-side">
+                <a href="resume.pdf" class="nav-options">Get Resume</a>
+                <a href="projects.html" class="nav-options">Projects</a>
+                <a href="contact.html" class="nav-options"> Contact</a>
+            </div>
+        </nav>
+
+    </header>
+
+    <div id="project-header">
+
+        <h3> | Main Projects |</h3>
+    </div>
+
+    <div class="projects">
+
+        <section class="project-card">
+            <h4> Object Detector</h4>
+            <div class="project-description">
+                <div class="icons-section">
+                    <img src="icons8-python (2).svg" alt="">
+                </div>
+
+                <p>
+                    During the 2020 HackOhio hackathon, I and two of my friends (Ebo Sompa Dennis and Gianna Torpey) created a software system for detecting
+                    a select number of
+                    objects using a laptop camera and notifying the user when an item in the list is found through a
+                    text message and an IOS application.
+                    This was built using openCv in python for parsing videodata gotten from the camera, twilio text
+                    messaging api, firebase's firestore database and swiftUI for the mobile app.
+                    It ended up winning 'most difficult hack', 'top ten hacks' and runner up for 'tech for social
+                    justice.'
+
+                </p>
+            </div>
+            <div class="links">
+                <span>
+                    <h5>Links</h5>
+                </span>
+                <span><a href="https://hack.osu.edu/2020/#winners">Hack OHIO 2020</a></span>
+                <span><a href="https://github.com/ameteku/Threat_detector_python"> Source Code</a></span>
+            </div>
+
+        </section>
+
+        <div class="divider "></div>
+
+
+        <section class="project-card">
+            <h4> Pull request for flutter epub-reader bug</h4>
+            <div class="project-description">
+                <div class="icons-section">
+                    <img src="icons8-java.svg" alt="">
+                </div>
+
+                <p>
+                    During my internship at Novvia LLC, We had to build a ebook + audiobook app using flutter but were having trouble retrieving and storing the current page number a user was on. With the help of the Development Team, 
+                    I was able to find out that the package needed to create a message passing bridge/channel between the flutter code and the java code that was rendering the text but was not doing so early enough.
+                    After trying trying different ways of early intialization, I successfully go it to intialize in time and fixed the problem my Team.
+                </p>
+            </div>
+            <div class="links">
+                <span>
+                    <h5>Links</h5>
+                </span>
+                <span><a href="https://github.com/JideGuru/epub_viewer/pull/104"> Pull Request</a></span>
+            </div>
+
+        </section>
+
+        <div class="divider "></div>
+
+        <section class="project-card">
+            <h4> Peer to Peer Ford Rental</h4>
+            <div class="project-description">
+                <div class="icons-section">
+                    <img src="icons8-nodejs.svg" alt="">
+                </div>
+
+                <p>
+                    This is a prototype web application created using flutter for the frontend and Nodejs for the backend for renting out personal ford cars that have the ability to connect to the Ford Connect api. 
+                    I created this for a ford hackathon during the summer but was never able to fully complete it as I was also working at my internship. 
+                </p>
+            </div>
+            <div class="links">
+                <span>
+                    <h5>Links</h5>
+                </span>
+                <span><a href=https://p2pford.web.app/#> Live Prototype</a></span>
+                <span><a href="https://p2pfordrental.herokuapp.com/"> Backend Json</a></span>
+                <span><a href="https://github.com/ameteku/p2pfordrental"> source code</a></span>
+            </div>
+
+        </section>
+
+        <div class="divider "></div>
+
+        <section class="project-card">
+            <h4>Polling Website</h4>
+            <div class="project-description">
+                <div class="icons-section">
+                    <img src="icons8-javascript.svg" alt="">
+                </div>
+
+                <p>
+                    For my NoSQL class, I together with two of my classmates created a polling website for our final project. I was in charge of the building the frontend (poll creation page and the homepage) where I ended up using vanilla javascript, html and boostrap, my two other teammates dealt with creating the backend in nodejs and the database using mongo db and we regrouped to connect the frontend to the back.
+                    After presenting our project in class, I went further to deploy it on heroku where it could be used. This was a really fun and fulfilling project for me as I learnt a lot about  frontend, backend an database integration and managed to create something that could actually be used.
+                </p>
+            </div>
+            <div class="links">
+                <span>
+                    <h5>Links</h5>
+                </span>
+                <span><a href="https://super-poll.herokuapp.com"> Live website</a></span>
+                <span><a href="https://github.com/CarlArtino/SuperPoll">source code</a></span>
+            </div>
+
+        </section>
+
+        <div class="divider "></div>
+
+        <section class="project-card">
+            <h4> Fundraiser Management Website</h4>
+            <div class="project-description">
+                <div class="icons-section">
+                    <img src="flutter-2038877-1720090.png" alt="">
+                </div>
+                <p>
+                    In summer 2021, I created a grid-type fundraiser management + raffle generator website consisting of 100 user blocks for a
+                    client using flutter for the frontend and firebase firestore for the backend. The most interesting
+                    part of this was figuring out how to scroll all blocks together and not as one individual
+                    row or column as flutter used controllers for each row/ column. Since this was a private project, I
+                    cannot provide the source code but I have made a grid of what is looks like.
+                </p>
+
+               
+            </div>
+
+            <div class="links">
+                <span>
+                    <h5>Links</h5>
+                </span>
+                <span><a href="fundraiser-page.html" _blank >Demo</a></span>
+            </div>
+        </section>
+
+        <div class="divider " style="color: black;"></div>
+
+        <section class="project-card">
+            <h4> Re-turnIt</h4>
+            <div class="project-description">
+                <div class="icons-section">
+                    <img src="icons8-javascript.svg" alt="">
+                </div>
+                <p>
+                    For my honors class on plastics in 2020, we were required to do a final project at the end of the class. Now, being a computer science student, I decided to build
+                    a prototype website that could increase the interest people had in recycling by making the payments( .25cents per bottle) you are supposed to get for recycling easily accessible and trackable.
+                     I ended up hacking at it and building the frontend with Html, css and vanilla javascript(does not look very great but..🙇‍♂️) and hosted it on firebase hosting.
+                </p>
+            </div>
+
+            <div class="links">
+                <span>
+                    <h5>Links</h5>
+                </span>
+                <span><a href="https://plastic-info.web.app">Live Website</a></span>
+                <span><a href="https://github.com/ameteku/Re-turnIt"> Source Code</a></span>
+            </div>
+        </section>
+
+        <section class="project-card">
+            <h4> Hibit Trash</h4>
+            <div class="project-description">
+                <div class="icons-section">
+                    <img src="arduino_22429.png" alt="">
+                </div>
+                <p>
+                    During the 2018 Hack Ohio hackathon, I and a friend (Ebo Sompa Dennis) created a prototype in arduino of a dustbin that 
+                    reminded users of the type of recycling trash they were about to dump trash in using an ultrasonic sensor, an LCD screen and a buzzer.  The purpose of this was to help reduce the amount of time and costs needed to filter recyclable trash when it is sent over to the recycling facility.
+                    We did not win anything this time but I did learn a lot about using  arduino and
+                     calculations needed for working with ultrasonic sensors.
+                </p>
+            </div>
+
+            <div class="links">
+                <span>
+                    <h5>Links</h5>
+                </span>
+                <span><a href="https://www.youtube.com/watch?v=_cg3TtnKd8Q">Youtube video</a></span>
+                <span><a href="https://github.com/ameteku/HibitTrash"> Source Code</a></span>
+            </div>
+        </section>
+
+        
+    </div>
+
+    <script type="text/javascript">
+    </script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.9.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+</body>
+
+</html>

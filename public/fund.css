@@ -1,0 +1,30 @@
+body > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+
+body > div > div {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
+body p {
+    min-width: 500px;
+    width: 50vw;
+    background-color: white;
+    border: 2px solid black;
+    padding : 3px;
+}
+body img {
+    width: 50vw;
+    
+}
+
